@@ -1,0 +1,179 @@
+body {
+	background-image: url("../img/fundo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@font-face {
+	font-family:"segoeuib";
+	src: url("../fonts/segoe/segoeuib.ttf");
+}
+
+@font-face{
+	font-family:"seguisb";
+	src: url("../fonts/segoe/seguisb.ttf");
+}
+
+h1, h2, p {
+	color:white;
+}
+
+p{
+	font-family:"seguisb";
+}
+
+h1{
+	font-size:20vw;
+	text-align: center;
+	margin-top:10vw;
+	font-family:"segoeuib";
+}
+
+h2 {
+	margin-top:-1.3vw;
+	font-family:"segoeuib";
+	font-size:3.5vw;
+}
+
+img {
+	width:42.1vw;
+	height:9.1vw;
+}
+
+#container {
+	margin:auto;
+	margin-top:-10vw;
+	width:80vw;
+}
+
+#first {
+	text-align:right;
+	float:left;
+	margin-right:9vw;
+}
+
+#second {
+	font-size: 1.6vw;
+}
+
+
+
+@media screen and (max-width:300px){
+	h2 {
+		font-size:6.5vw;
+	}
+	#first{
+		text-align:center;
+		margin-bottom:20px;
+	}
+	img {
+		width:80vw;
+		height:auto;
+	}
+	#second{
+		text-align:left;
+		font-size:6.6vw
+	}	
+}
+
+@media screen and (min-width:300px){
+	h2 {
+		font-size:5.5vw;
+	}
+	#first{
+		text-align:center;
+		margin-bottom:20px;
+	}
+	img {
+		width:80vw;
+		height:auto;
+	}
+	#second{
+		text-align:center;
+		font-size:3.6vw
+	}	
+}
+
+@media screen and (min-width:400px){
+	h2 {
+		font-size:5.5vw;
+	}
+	#first{
+		text-align:center;
+	}
+	img {
+		width:80vw;
+		height:auto;
+	}
+	#second{
+		text-align:center;
+		font-size:2.6vw
+	}	
+}
+
+@media screen and (min-width:700px){
+	h1{
+	font-size:20vw;
+	margin-top:10vw;
+	}
+
+	h2 {
+		margin-top:-1.3vw;
+		font-size:3.5vw;
+	}
+
+	img {
+		width:42.1vw;
+		height:auto;
+	}
+
+	#container {
+		margin-top:-10vw;
+		width:80vw;
+	}
+
+	#first {
+		margin-right:9vw;
+		text-align:right;
+	}
+
+	#second {
+		font-size: 1.6vw;
+		text-align:left;
+	}
+}
+
+@media screen and (min-width:900px){
+	h1{
+	font-size:200px;
+	margin-top:100px;
+	}
+
+	h2 {
+		margin-top:-13px;
+		font-size:35px;
+	}
+
+	img {
+		width:421px;
+		height:91px;
+	}
+
+	#container {
+		margin-top:-100px;
+		width:800px;
+	}
+
+	#first {
+		margin-right:90px;
+	}
+
+	#second {
+		font-size: 16px;
+		text-align:left;
+	}
+}
+
+
+
+
